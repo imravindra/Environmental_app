@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">This Is Future</string>
+    <string-array name="sollist">
+        <item>Car Pooling</item>
+        <item>Plastic Recycling</item>
+    </string-array>
+</resources>

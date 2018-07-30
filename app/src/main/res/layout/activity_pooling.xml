@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pooling">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Car Pooling: Make it easier for you to travel"
+        android:focusable="true"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_marginBottom="30dp"
+        android:ellipsize="marquee"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:text="Carpooling is the sharing of car journeys so that more than one person travels in a car, and prevents the need for others to have to drive to a location themselves."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="26sp"
+        android:textAlignment="center"
+        android:text="So Basically we are new OLA Share"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Me"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:id="@+id/ola"/>
+
+</LinearLayout>
